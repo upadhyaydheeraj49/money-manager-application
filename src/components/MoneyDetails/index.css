@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.money-details-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.money-details-card {
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .money-details-card {
+    max-width: 250px;
+    flex-shrink: 1;
+  }
+}
+.balance-card {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  width: 100%;
+}
+.income-card {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  width: 100%;
+}
+.expenses-card {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  width: 100%;
+}
+.money-details-card img {
+  height: 50px;
+  width: 50px;
+}
+.money-details-card-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+.card-title {
+  font-size: 16px;
+  color: #7e858e;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+ .card-title {
+  font-size: 14px;
+ } 
+}
+.amount {
+  font-size: 20px;
+  color: #475569;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 18px;
+  }
+}

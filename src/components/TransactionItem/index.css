@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.history-item-title {
+  font-size: 15px;
+  width: 130px;
+}
+.history-item-amount {
+  font-size: 15px;
+  width: 90px;
+}
+.history-item-type {
+  font-size: 15px;
+  width: 70px;
+}
+.delete-button {
+  background: transparent;
+  padding: 0px;
+  width: fit-content;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-button img {
+  width: 20px;
+  height: 20px;
+  margin-top: 6px;
+}
+.history-row {
+  width: 100%;
+  padding: 0px 10px;
+  border: 1px solid #d5e0ec;
+  border-radius: 2px;
+  border-top: none;
+  display: flex;
+  align-items: center;
+}
+.history-row p {
+  margin: 6px 0px;
+  color: #334155;
+  font-weight: 400;
+  flex-grow: 1;
+  padding-right: 4px;
+}
